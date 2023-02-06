@@ -9,14 +9,17 @@
 /* Begin PBXBuildFile section */
 		A2D39898299133CA00004C2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D39897299133CA00004C2B /* AppDelegate.swift */; };
 		A2D3989A299133CA00004C2B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D39899299133CA00004C2B /* SceneDelegate.swift */; };
-		A2D3989C299133CA00004C2B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D3989B299133CA00004C2B /* ViewController.swift */; };
-		A2D3989F299133CA00004C2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2D3989D299133CA00004C2B /* Main.storyboard */; };
 		A2D398A2299133CA00004C2B /* MyViewCodeApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A2D398A0299133CA00004C2B /* MyViewCodeApp.xcdatamodeld */; };
 		A2D398A4299133CE00004C2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2D398A3299133CE00004C2B /* Assets.xcassets */; };
 		A2D398A7299133CE00004C2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2D398A5299133CE00004C2B /* LaunchScreen.storyboard */; };
 		A2D398B2299133CE00004C2B /* MyViewCodeAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D398B1299133CE00004C2B /* MyViewCodeAppTests.swift */; };
 		A2D398BC299133CF00004C2B /* MyViewCodeAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D398BB299133CF00004C2B /* MyViewCodeAppUITests.swift */; };
 		A2D398BE299133CF00004C2B /* MyViewCodeAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D398BD299133CF00004C2B /* MyViewCodeAppUITestsLaunchTests.swift */; };
+		A2D398D1299138C000004C2B /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D398D0299138C000004C2B /* LoginVC.swift */; };
+		A2D398D3299138D500004C2B /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D398D2299138D500004C2B /* LoginView.swift */; };
+		A2D398D5299138FA00004C2B /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D398D4299138FA00004C2B /* Coordinator.swift */; };
+		A2D398D72991390C00004C2B /* LoginCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D398D62991390C00004C2B /* LoginCoordinator.swift */; };
+		A2D398DA2991396C00004C2B /* LocalizableStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D398D92991396C00004C2B /* LocalizableStrings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +43,6 @@
 		A2D39894299133CA00004C2B /* MyViewCodeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyViewCodeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2D39897299133CA00004C2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2D39899299133CA00004C2B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A2D3989B299133CA00004C2B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A2D3989E299133CA00004C2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A2D398A1299133CA00004C2B /* MyViewCodeApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyViewCodeApp.xcdatamodel; sourceTree = "<group>"; };
 		A2D398A3299133CE00004C2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2D398A6299133CE00004C2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +52,11 @@
 		A2D398B7299133CF00004C2B /* MyViewCodeAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyViewCodeAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2D398BB299133CF00004C2B /* MyViewCodeAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewCodeAppUITests.swift; sourceTree = "<group>"; };
 		A2D398BD299133CF00004C2B /* MyViewCodeAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewCodeAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A2D398D0299138C000004C2B /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		A2D398D2299138D500004C2B /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		A2D398D4299138FA00004C2B /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		A2D398D62991390C00004C2B /* LoginCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCoordinator.swift; sourceTree = "<group>"; };
+		A2D398D92991396C00004C2B /* LocalizableStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizableStrings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +107,9 @@
 		A2D39896299133CA00004C2B /* MyViewCodeApp */ = {
 			isa = PBXGroup;
 			children = (
-				A2D39897299133CA00004C2B /* AppDelegate.swift */,
-				A2D39899299133CA00004C2B /* SceneDelegate.swift */,
-				A2D3989B299133CA00004C2B /* ViewController.swift */,
-				A2D3989D299133CA00004C2B /* Main.storyboard */,
-				A2D398A3299133CE00004C2B /* Assets.xcassets */,
-				A2D398A5299133CE00004C2B /* LaunchScreen.storyboard */,
+				A2D398CA2991371300004C2B /* Resource */,
+				A2D398CB2991372400004C2B /* Source */,
 				A2D398A8299133CE00004C2B /* Info.plist */,
-				A2D398A0299133CA00004C2B /* MyViewCodeApp.xcdatamodeld */,
 			);
 			path = MyViewCodeApp;
 			sourceTree = "<group>";
@@ -128,6 +129,70 @@
 				A2D398BD299133CF00004C2B /* MyViewCodeAppUITestsLaunchTests.swift */,
 			);
 			path = MyViewCodeAppUITests;
+			sourceTree = "<group>";
+		};
+		A2D398CA2991371300004C2B /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				A2D39897299133CA00004C2B /* AppDelegate.swift */,
+				A2D398A3299133CE00004C2B /* Assets.xcassets */,
+				A2D398A5299133CE00004C2B /* LaunchScreen.storyboard */,
+				A2D398A0299133CA00004C2B /* MyViewCodeApp.xcdatamodeld */,
+				A2D39899299133CA00004C2B /* SceneDelegate.swift */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		A2D398CB2991372400004C2B /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				A2D398CC2991379200004C2B /* Controllers */,
+				A2D398CD299137A500004C2B /* Coordinator */,
+				A2D398CE299137BA00004C2B /* Infrastructure */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		A2D398CC2991379200004C2B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A2D398CF2991389800004C2B /* Login */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A2D398CD299137A500004C2B /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				A2D398D4299138FA00004C2B /* Coordinator.swift */,
+				A2D398D62991390C00004C2B /* LoginCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		A2D398CE299137BA00004C2B /* Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				A2D398D82991392B00004C2B /* Localizable */,
+			);
+			path = Infrastructure;
+			sourceTree = "<group>";
+		};
+		A2D398CF2991389800004C2B /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				A2D398D0299138C000004C2B /* LoginVC.swift */,
+				A2D398D2299138D500004C2B /* LoginView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		A2D398D82991392B00004C2B /* Localizable */ = {
+			isa = PBXGroup;
+			children = (
+				A2D398D92991396C00004C2B /* LocalizableStrings.swift */,
+			);
+			path = Localizable;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,7 +301,6 @@
 			files = (
 				A2D398A7299133CE00004C2B /* LaunchScreen.storyboard in Resources */,
 				A2D398A4299133CE00004C2B /* Assets.xcassets in Resources */,
-				A2D3989F299133CA00004C2B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,10 +325,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2D3989C299133CA00004C2B /* ViewController.swift in Sources */,
 				A2D39898299133CA00004C2B /* AppDelegate.swift in Sources */,
 				A2D3989A299133CA00004C2B /* SceneDelegate.swift in Sources */,
+				A2D398D72991390C00004C2B /* LoginCoordinator.swift in Sources */,
+				A2D398D5299138FA00004C2B /* Coordinator.swift in Sources */,
+				A2D398D1299138C000004C2B /* LoginVC.swift in Sources */,
+				A2D398D3299138D500004C2B /* LoginView.swift in Sources */,
 				A2D398A2299133CA00004C2B /* MyViewCodeApp.xcdatamodeld in Sources */,
+				A2D398DA2991396C00004C2B /* LocalizableStrings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,14 +369,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A2D3989D299133CA00004C2B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A2D3989E299133CA00004C2B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A2D398A5299133CE00004C2B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -446,7 +506,7 @@
 				INFOPLIST_FILE = MyViewCodeApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -474,7 +534,7 @@
 				INFOPLIST_FILE = MyViewCodeApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
